@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.auction.AppTest" time="0.519" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="C:\Users\QUYNH\IdeaProjects\Le Quynh Anh_25023150_Week9\Bai09\target\test-classes;C:\Users\QUYNH\IdeaProjects\Le Quynh Anh_25023150_Week9\Bai09\target\classes;C:\Users\QUYNH\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\QUYNH\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\QUYNH\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\QUYNH\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\QUYNH\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\QUYNH\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\QUYNH\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\QUYNH\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\QUYNH\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\QUYNH\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\QUYNH\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Saigon"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\QUYNH\AppData\Local\Temp\surefire7221681339305111291\surefirebooter-20260514154946046_3.jar C:\Users\QUYNH\AppData\Local\Temp\surefire7221681339305111291 2026-05-14T15-49-43_564-jvmRun1 surefire-20260514154946046_1tmp surefire_0-20260514154946046_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\QUYNH\IdeaProjects\Le Quynh Anh_25023150_Week9\Bai09\target\test-classes;C:\Users\QUYNH\IdeaProjects\Le Quynh Anh_25023150_Week9\Bai09\target\classes;C:\Users\QUYNH\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\QUYNH\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\QUYNH\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\QUYNH\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\QUYNH\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\QUYNH\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\QUYNH\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\QUYNH\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\QUYNH\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\QUYNH\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\QUYNH\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\QUYNH"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\QUYNH\IdeaProjects\Le Quynh Anh_25023150_Week9\Bai09"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\QUYNH\AppData\Local\Temp\surefire7221681339305111291\surefirebooter-20260514154946046_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.2+10-LTS-69"/>
+    <property name="user.name" value="QUYNH"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\QUYNH\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\QUYNH\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.2"/>
+    <property name="user.dir" value="C:\Users\QUYNH\IdeaProjects\Le Quynh Anh_25023150_Week9\Bai09"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\python;C:\Program Files;C:\python;C:\python;C:\Users\QUYNH\AppData\Local\Programs\Python\Python314;C:\Program Files\Java\jdk-25.0.2\bin;C:\Program Files\Git\cmd;C:\Users\QUYNH\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\QUYNH\AppData\Local\Programs\Python\Python314\;C:\Users\QUYNH\AppData\Local\Programs\Python\Launcher\;C:\Users\QUYNH\AppData\Local\Microsoft\WindowsApps;C:\Users\QUYNH\AppData\Local\GitHubDesktop\bin;C:\Python27;C:\python;C:\Program Files;C:\Users\QUYNH\AppData\Local\Programs\Python\Python314;C:\Users\QUYNH\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.3\bin;C:\apache-maven-3.9.15\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.2+10-LTS-69"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testCreateUserValid" classname="com.auction.AppTest" time="0.1">
+    <system-out><![CDATA[15:49:47,612 |-INFO in ch.qos.logback.classic.LoggerContext[default] - This is logback-classic version 1.4.11
+15:49:47,617 |-INFO in ch.qos.logback.classic.util.ContextInitializer@b2c9a9c - No custom configurators were discovered as a service.
+15:49:47,617 |-INFO in ch.qos.logback.classic.util.ContextInitializer@b2c9a9c - Trying to configure with ch.qos.logback.classic.joran.SerializedModelConfigurator
+15:49:47,620 |-INFO in ch.qos.logback.classic.util.ContextInitializer@b2c9a9c - Constructed configurator of type class ch.qos.logback.classic.joran.SerializedModelConfigurator
+15:49:47,625 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.scmo]
+15:49:47,626 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.scmo]
+15:49:47,634 |-INFO in ch.qos.logback.classic.util.ContextInitializer@b2c9a9c - ch.qos.logback.classic.joran.SerializedModelConfigurator.configure() call lasted 6 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+15:49:47,634 |-INFO in ch.qos.logback.classic.util.ContextInitializer@b2c9a9c - Trying to configure with ch.qos.logback.classic.util.DefaultJoranConfigurator
+15:49:47,635 |-INFO in ch.qos.logback.classic.util.ContextInitializer@b2c9a9c - Constructed configurator of type class ch.qos.logback.classic.util.DefaultJoranConfigurator
+15:49:47,637 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+15:49:47,641 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/Users/QUYNH/IdeaProjects/Le%20Quynh%20Anh_25023150_Week9/Bai09/target/classes/logback.xml]
+15:49:47,838 |-WARN in ch.qos.logback.core.joran.action.ImplicitModelAction - Could not find parent model.
+15:49:47,839 |-WARN in ch.qos.logback.core.joran.action.ImplicitModelAction -  Will not add current implicit model as subModel.
+15:49:47,841 |-ERROR in ch.qos.logback.classic.joran.JoranConfigurator@4c178a76 - Could not find valid configuration instructions. Exiting.
+15:49:47,841 |-INFO in ch.qos.logback.classic.util.ContextInitializer@b2c9a9c - ch.qos.logback.classic.util.DefaultJoranConfigurator.configure() call lasted 206 milliseconds. ExecutionStatus=DO_NOT_INVOKE_NEXT_IF_ANY
+
+]]></system-out>
+  </testcase>
+  <testcase name="testFindUserNotFound" classname="com.auction.AppTest" time="0.01"/>
+  <testcase name="testCreateUserEmptyName" classname="com.auction.AppTest" time="0.004"/>
+  <testcase name="testParameterizedLogging" classname="com.auction.AppTest" time="0.007"/>
+  <testcase name="testDeleteUserInvalidId" classname="com.auction.AppTest" time="0.013"/>
+</testsuite>
