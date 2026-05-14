@@ -1,0 +1,13 @@
+2026-05-07 18:09:31.600 [main] INFO  com.auction.App - ===== Ứng dụng bắt đầu khởi động =====
+2026-05-07 18:09:31.603 [main] INFO  com.auction.App - Bắt đầu chạy demo logging
+2026-05-07 18:09:31.604 [main] INFO  com.auction.UserService - Tạo user thành công: id=915, name=Nguyen Van A, email=nguyenvana@example.com
+2026-05-07 18:09:31.606 [main] INFO  com.auction.UserService - Tìm thấy user: id=1, name=Nguyen Van A
+2026-05-07 18:09:31.606 [main] WARN  com.auction.UserService - Không tìm thấy user với id=999, trả về null
+2026-05-07 18:09:31.607 [main] INFO  com.auction.UserService - Yêu cầu xóa user với id=-1
+2026-05-07 18:09:31.607 [main] ERROR com.auction.UserService - Lỗi khi xóa user id=-1: User ID phải là số dương, nhận được: -1
+java.lang.IllegalArgumentException: User ID phải là số dương, nhận được: -1
+	at com.auction.UserService.deleteUser(UserService.java:61)
+	at com.auction.App.runDemo(App.java:54)
+	at com.auction.App.main(App.java:34)
+2026-05-07 18:09:31.610 [main] INFO  com.auction.App - Kết thúc demo logging
+2026-05-07 18:09:31.610 [main] INFO  com.auction.App - ===== Ứng dụng kết thúc bình thường =====
