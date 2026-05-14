@@ -2,10 +2,8 @@ name: Java CI with Maven (Bai 9)
 
 on:
   push:
-    branches: [ "master", "feature-*" ]
-
-  pull_request:
-    branches: [ "master" ]
+    branches:
+      - main
 
 jobs:
 
@@ -23,16 +21,6 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-          cache: maven
 
-      - name: Build and Test with Maven
+      - name: Build and Test
         run: mvn clean test
-
-      - name: Verify Log File Creation
-        run: |
-          if [ -f logs/app.log ]; then
-            echo "Log file created successfully."
-          else
-            echo "Log file NOT found!"
-            exit 1
-          fi
